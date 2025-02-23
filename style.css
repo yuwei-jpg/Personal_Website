@@ -1,0 +1,46 @@
+/* Basic page styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Uniform padding and margin for main sections */
+header, nav, section, footer {
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+}
